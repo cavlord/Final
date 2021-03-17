@@ -5,9 +5,6 @@ const { Wallets, Gateway } = require("fabric-network");
 const fs = require("fs");
 const path = require("path");
 
-
-
-
 const connectToNetwork = async () => {
   // Create a new file system based wallet for managing identities.
   const walletPath = path.join(__dirname, "wallet");
