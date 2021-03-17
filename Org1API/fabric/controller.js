@@ -4,8 +4,6 @@ const FabricCAServices = require("fabric-ca-client");
 const { Wallets, Gateway } = require("fabric-network");
 const fs = require("fs");
 const path = require("path");
-const {uuid} = require("uuidv4") ;
-const uid = uuid();
 
 
 
